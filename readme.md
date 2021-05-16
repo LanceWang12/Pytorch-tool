@@ -85,7 +85,7 @@ history = model.fit(
 )
 ```
 
-### First, user should <font color=#FF0000>turn the data from ndarray to torch.tensor</font>. Second, use the member function of trainer - *compile* (However pytorch is a dynamic module; I just mimic the style of Keras) to set optimizer, loss function and metrics. Finally, just fit the model.
+### First, user should <font color=#FF0000>turn the data from ndarray to torch.tensor</font>. Second, use the member function of trainer - *compile* (However, pytorch is a dynamic module; I just mimic the style of Keras) to set optimizer, loss function and metrics. Finally, just fit the model.
 
 ### After training, model.fit will return the history. It is a dictionary like below:
 
