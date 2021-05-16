@@ -53,7 +53,7 @@ callbacks = [ckpt1, ckpt2]
 
 
 
-## 3. How to train the model? (Take binary classification as example)
+## 3. How to train the model? (Take binary classification for example)
 
 ```python
 from torch_tool import compute_class_weight
